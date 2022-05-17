@@ -10,7 +10,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
-<body>
+<body style="background-color: #d5e6dd;">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">My notes</a>
@@ -34,24 +34,27 @@
 
     <div class="container my-3">
         <h1 align="center">My magic notes</h1>
-        <div class="card">
+        <div class="card" style="border-radius: 10px;">
 
-            <div class="noteCard">
+            <div class="noteCard"  style="background-color: #dce0de;">
                 <!--Title is her-->
                 <div class="column mb-3">
-                    <label for="inputEmail3" class="col-sm-2 col-form-label"><h5>Add title</h5></label>
+                    <label for="inputEmail3" class="col-sm-2 col-form-label">
+                        <h5>Add title</h5>
+                    </label>
                     <div class="col-sm-15">
-                      <input type="text" class="form-control" id="addTitle">
+                        <input type="text" class="form-control" id="addTitle"
+                            style="border-radius: 10px;background-color:#a7c4b4;">
                     </div>
-                  </div>
+                </div>
                 <h5 class="card-title" id="card-title">Write a note</h5>
                 <div class="form-floating">
                     <textarea class="form-control" placeholder="Leave a comment here" id="addTxt"
-                        style="height: 100px"></textarea>
+                        style="height: 100px;border-radius: 10px;background-color:#a7c4b4;"></textarea>
                     <label for="floatingTextarea2"></label>
                 </div>
-              
-                <button class="btn btn-primary my-3" id="addBtn">Add note</button>
+
+                <button class="btn my-3" id="addBtn" style="background-color:#308254">Add note</button>
             </div>
         </div>
 
